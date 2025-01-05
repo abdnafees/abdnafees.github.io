@@ -1,12 +1,47 @@
 title: Abdullah Nafees
-email: abdullahnafees23 [at] gmail [dot] com
-description: "An overly excited computer scientist from Lahore, Pakistan"
-baseurl: ""
-url: "https://abdnafees.github.io" 
-twitter_username: abdnafees
-github_username:  abdnafees
-
+author:
+  name: Abdullah Nafees
+  email: abdullahnafees23 [at] gmail [dot] com
+description: >
+  Software Engineer from Lahore
+url: "https://abdnafees.github.io"
+disqus:
+  shortname: abdullah_nafees
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
+header_pages:
+  - about.md
+
+minima:
+  skin: dark
+
+social_links:
+  - {platform: github, user_url: "https://github.com/abdnafees"}
+  - {platform: linkedin, user_url: "https://www.linkedin.com/in/abdnafees"}
+  - {platform: x, user_url: "https://x.com/_brownnerd"}
+  - {platform: youtube, user_url: "https://www.youtube.com/brownnerd"}
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
