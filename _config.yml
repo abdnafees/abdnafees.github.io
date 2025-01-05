@@ -6,7 +6,7 @@ description: >
   Software Engineer from Lahore
 url: "https://abdnafees.github.io"
 disqus:
-  shortname: abdullah_nafees
+  shortname: "abdullah_nafees"
 # Build settings
 plugins:
   - jekyll-feed
