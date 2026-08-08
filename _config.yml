@@ -12,7 +12,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: jekyll/minima
+theme: minima
 
 header_pages:
   - about.md
