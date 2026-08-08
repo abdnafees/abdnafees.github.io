@@ -1,16 +1,19 @@
 title: Abdullah Nafees
-author:
-  name: Abdullah Nafees
-  email: abdullahnafees23 [at] gmail [dot] com
+author: Abdullah Nafees
+email: abdullahnafees23 [at] gmail [dot] com
 description: >
   Software Engineer from Lahore
+youtube_username: brownnerd
+instagram_username: _brownnerd
+twitter_username: _brownnerd
+github_username: abdnafees
+linkedin_username: abdnafees
 url: "https://abdnafees.github.io"
 disqus:
   shortname: "abdullahnafees"
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 theme: minima
 
