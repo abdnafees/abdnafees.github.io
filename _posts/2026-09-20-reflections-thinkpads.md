@@ -2,7 +2,6 @@
 layout: post
 title: "Back to ThinkPads"
 date: 2026-09-20
-tags: [thinkpad, hardware, repair]
 ---
 
 The night before, I broke the screen on my HP ProBook 450. So I pulled its RAM and SSD out, put them in my pocket, and the next morning walked into Hafeez Center with 8,000 rupees of my own money looking for a machine with nothing in it.
