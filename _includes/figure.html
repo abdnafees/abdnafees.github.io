@@ -1,0 +1,17 @@
+{%- comment -%}
+  Usage in a post (wrap in curly-brace-percent tags):
+    include figure.html src="/assets/images/posts/2026-11-02/kit.jpg" alt="ESP32 on a breadboard" caption="First blink."
+
+  src      required  path under /assets/images/ (or a full https URL)
+  alt      required  describe the image for screen readers
+  caption  optional  shown under the image; markdown allowed
+  width    optional  e.g. "60%" to shrink a tall phone photo
+{%- endcomment -%}
+{%- assign img_src = include.src -%}
+{%- unless img_src contains "://" -%}{%- assign img_src = img_src | relative_url -%}{%- endunless -%}
+<figure class="post-figure">
+  <img src="{{ img_src }}" alt="{{ include.alt | escape }}" loading="lazy"{% if include.width %} style="width: {{ include.width }};"{% endif %}>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>
+  {%- endif %}
+</figure>
